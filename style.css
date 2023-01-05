@@ -10,20 +10,31 @@
     font-size: 30px;
     padding: 10px 20px;
     border-radius: 5px;
+    font-weight: 700;
 }
 .btn:hover{
     color: #FF5959;
     background: rgba(255, 255, 255, 0.377);
     border: 2px solid white;
 }
+.section-title{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.description{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
 /* Banner Section style */
 .banner-section{
     background: url("./assets/images/donation13.jpg") no-repeat,
-    linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.87));
+    linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.925));
     background-blend-mode: overlay;
     background-size: cover;
-    width: 1450px;
-    height: 700px;
+    width: 100vw;
+    height: 800px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -34,11 +45,67 @@
     text-align: center;
 }
 .banner-content h1{
-    font-size: 70px;
+    font-size: 80px;
     margin-bottom: 10px;
 }
 .banner-content p{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 50px;
-    line-height: 30px;
+    line-height: 40px;
+}
+/* main section style */
+.main-section{
+    border: 1px solid #ddd;
+    width: 1400px;
+    margin: 0 auto;
+}
+/* donate today section style */
+.donate-todey{
+    text-align: center;
+    margin: 100px 0;
+}
+.dt-boxs{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 200px;
+    margin: 100px 0; 
+}
+.dt-boxs .box{
+   width: 150px;
+   height: 150px;
+   background: #e9e9e9;
+   border-radius: 6px; 
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid transparent;
+}
+.dt-boxs .box:hover{
+    border: 2px solid #FF5959;
+    background: #ff59591e;
+}
+.dt-boxs .box h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #929292;
+}
+.dt-boxs .box:hover h3{
+    color: #FF5959;
+}
+.amount{
+    width: 990px;
+    margin: auto;
+    border-bottom: 2px solid #e9e9e9;
+    margin-bottom: 50px;
+}
+.amount-p{
+    color: #929292;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.dt-btn:hover{
+    border: 2px solid #FF5959;
 }
