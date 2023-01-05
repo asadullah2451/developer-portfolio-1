@@ -175,4 +175,44 @@
     width: 700px;
     border-radius: 10px;
 }
+
+/* Contact Section Style */
+.contact-section{
+    margin: 100px 0;
+}
+.form{
+    background: #FFF4D6;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 10px;
+}
+.form .email{
+    background: #c5c5c5;
+    border: none;
+    font-size: 15px;
+    padding: 10px 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+}
+   
+.form .sub-btn{
+    background: #FF5959;
+    border: none;
+    font-size: 15px;
+    padding: 10px 10px;
+    color: white;
+    margin-left: -5px;
+    width: 130px;
+    height: 50px;
+    border-radius: 0 5px 5px 0;
+    border: 2px solid transparent;
+}
+.form .sub-btn:hover{
+   background: white;
+   border: 2px solid #FF5959;
+   color: #FF5959;
+}
    
