@@ -63,7 +63,6 @@
 }
 /* main section style */
 .main-section{
-    border: 1px solid #ddd;
     width: 1400px;
     margin: 0 auto;
 }
@@ -182,7 +181,7 @@
 }
 .form{
     background: #FFF4D6;
-    width: 1000px;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding: 100px 0;
@@ -214,5 +213,22 @@
    background: white;
    border: 2px solid #FF5959;
    color: #FF5959;
+}
+
+/* footer section */
+.footer{
+    width: 100%;
+    background: #000;
+    text-align: center;
+    padding: 100px 00;
+}
+.footer h2{
+    color: #FF5959;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.footer h5{
+    color: white;
+    font-size: 20px;
 }
    
