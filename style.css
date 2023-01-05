@@ -29,6 +29,12 @@
     margin-bottom: 30px;
     text-align: center;
 }
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
 /* Banner Section style */
 .banner-section{
     background: url("./assets/images/donation13.jpg") no-repeat,
@@ -149,3 +155,24 @@
 .dp-box-3{
     background: #FFF4D6;
 }
+
+/* Blog Section Style */
+.blog-1{
+    display: flex;
+    gap: 5rem;
+    margin: 200px 0;
+}
+.img-box img{
+    width: 700px;
+    border-radius: 10px;
+}
+.blog-2{
+    display: flex;
+    gap: 5rem;
+    margin: 200px 0;
+}
+.img-box img{
+    width: 700px;
+    border-radius: 10px;
+}
+   
