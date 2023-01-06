@@ -220,12 +220,13 @@
     width: 100%;
     background: #000;
     text-align: center;
-    padding: 100px 00;
+    padding: 50px 00;
 }
 .footer h2{
     color: #FF5959;
     margin-bottom: 40px;
     font-size: 50px;
+    font-family: 'Lobster', cursive;
 }
 .footer h5{
     color: white;
